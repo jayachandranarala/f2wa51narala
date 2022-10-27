@@ -1,3 +1,7 @@
+var express = require('express');
+var router = express.Router();
+
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
     var num1= (Math.random() * 10)
@@ -14,7 +18,7 @@ router.get('/', function(req, res, next) {
     num2:num2,
     num3:num3,
     imul:imul,
-    log: log,
+    log:log,
     log10:log10
   
   });
