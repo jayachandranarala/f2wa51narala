@@ -4,9 +4,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    var num1= (Math.random() * 10)
-    var num2= (Math.random() * 10)
-    var num3=(Math.random() * 10)
+    var num1= (Math.random() + 10)
+    var num2= (Math.random() + 10)
+    var num3=(Math.random() + 10)
    
 
     
